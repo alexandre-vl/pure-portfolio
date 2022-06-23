@@ -1,0 +1,122 @@
+.menu {
+  position: fixed;
+  background-color: #2d2f33;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #25262a00;
+  z-index: 1;
+  border: transparent;
+  padding-left: 10vh;
+  padding-right: 10vh;
+  margin-top: 30px;
+}
+
+.name-title {
+  font-size: 18px;
+  color: rgb(197, 197, 197);
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.profil {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.profil img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.theme-icon {
+  font-size: 40px;
+  width: 40px;
+}
+
+.navbar {
+  position: fixed;
+  margin-right: 4vh;
+  z-index: 10000;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.list-icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar-item.active {
+  filter: drop-shadow(0 0 0.75rem #ce804f);
+}
+
+.navbar-item {
+  margin-top: 10px;
+  background-color: #20232b; /* light #362c2c; */ /* dark #0b111e; */
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.svg-navbar {
+  color: #f0c43c;
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
+  display: block;
+}
+
+svg:hover {
+  color: #f0c43c;
+}
+
+.footer {
+  background-image: url("/assets/img/wave/wavy-light.svg") !important;
+  background-position: bottom !important;
+  background-size: 200% !important;
+  background-repeat: no-repeat !important;
+}
+
+.information {
+  text-align: center !important;
+  padding: 30px 30px !important;
+}
+
+.copyright {
+  text-align: center !important;
+  padding: 5px 6px !important;
+  color: #a2a8bd !important;
+  padding: 30px 30px !important;
+}
+
+@media screen and (max-width: 1280px) {
+  .list-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .navbar {
+    right: inherit;
+    bottom: 0px;
+    top: inherit;
+    width: 100%;
+  }
+
+  .menu {
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+}

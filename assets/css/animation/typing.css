@@ -1,0 +1,147 @@
+.type-animation {
+  display: inline-flex;
+  width: 0;
+  overflow: hidden;
+  padding-right: 0.08em;
+  position: relative;
+}
+
+.type-animation:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -0.05em;
+  bottom: -0.05em;
+  width: 0.08em;
+  border-right: 2px solid transparent;
+}
+
+.type-animation.animating {
+  -webkit-animation: type 1620ms;
+  animation: type 1620ms;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.type-animation.animating:after {
+  -webkit-animation: cursor 320ms 8.625 ease-in-out;
+  animation: cursor 320ms 8.625 ease-in-out;
+}
+
+@-webkit-keyframes cursor {
+  0%,
+  100% {
+    border-color: #c9c9c9;
+  }
+
+  50% {
+    border-color: #c9c9c9;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes cursor {
+  0%,
+  100% {
+    border-color: #c9c9c9;
+  }
+
+  50% {
+    border-color: #c9c9c9;
+  }
+
+  100% {
+    width: 0;
+  }
+}
+
+@-webkit-keyframes type {
+  10% {
+    width: 0.49em;
+  }
+
+  20% {
+    width: 0.98em;
+  }
+
+  30% {
+    width: 1.47em;
+  }
+
+  40% {
+    width: 1.96em;
+  }
+
+  50% {
+    width: 2.45em;
+  }
+
+  60% {
+    width: 2.94em;
+  }
+
+  70% {
+    width: 3.43em;
+  }
+
+  80% {
+    width: 3.92em;
+  }
+
+  90% {
+    width: 4.41em;
+  }
+
+  100% {
+    width: 4.7em;
+    padding-right: 0;
+  }
+}
+
+@keyframes type {
+  10% {
+    width: 0.49em;
+  }
+
+  20% {
+    width: 0.98em;
+  }
+
+  30% {
+    width: 1.47em;
+  }
+
+  40% {
+    width: 1.96em;
+  }
+
+  50% {
+    width: 2.45em;
+  }
+
+  60% {
+    width: 2.94em;
+  }
+
+  70% {
+    width: 3.43em;
+  }
+
+  80% {
+    width: 3.92em;
+  }
+
+  90% {
+    width: 4.41em;
+  }
+
+  100% {
+    width: 4.7em;
+    padding-right: 0;
+  }
+}
