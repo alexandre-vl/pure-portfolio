@@ -68,6 +68,23 @@
   background-color: #3fb984;
 }
 
+.skills-seemore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 3rem;
+}
+
+.skills-seemore-text {
+  font-size: 1.2rem;
+  color: #e6e6e6;
+  font-weight: 600;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 850px) {
   .skils-list {
     flex-wrap: wrap;
