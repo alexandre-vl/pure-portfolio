@@ -67,3 +67,10 @@
   width: 30px;
   background-color: #3fb984;
 }
+
+@media screen and (max-width: 850px) {
+  .skils-list {
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+  }
+}
