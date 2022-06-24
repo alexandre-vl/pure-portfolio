@@ -19,6 +19,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  letter-spacing: 0.05rem;
 }
 
 a {
@@ -49,6 +50,7 @@ a {
 
 .titles-section {
   padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -66,4 +68,16 @@ a {
   font-size: 1rem;
   color: #aaaaaa;
   font-weight: 600;
+}
+
+.button-contact {
+  background-color: #f0c43c;
+  color: #202733;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 150px;
 }

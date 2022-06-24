@@ -2,3 +2,79 @@
   height: 100vh;
   background-color: #2b3443;
 }
+
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 100%;
+  background-color: #2b3443;
+  color: #fff;
+  margin-left: 5rem;
+}
+
+.intro-text {
+  margin-top: 2rem;
+}
+
+.intro-blocks {
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-block {
+  height: 110px;
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #202733;
+  margin: 0.5rem;
+  border-radius: 0.75rem;
+
+  text-align: center;
+  padding: 1rem 1.25rem;
+}
+
+.intro-block-text {
+  font-size: 0.875rem;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 2px;
+}
+
+.intro-block-sub-text {
+  font-size: 0.75rem;
+  color: #cecece;
+  font-weight: 600;
+}
+
+.intro-me-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #f0c43c;
+}
+
+.svg-intro {
+  margin-bottom: 5px;
+  width: 30px;
+  height: 30px;
+  color: #f0c43c;
+}
+
+.button-case {
+  margin-top: 2rem;
+  width: 100%;
+}
