@@ -14,15 +14,21 @@ function scrollActive() {
       sectionTop = current.offsetTop - 58,
       sectionId = current.getAttribute("id");
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-      console.log("ok");
-      document
-        .querySelector(".navbar a[href*=" + sectionId + "]")
-        .classList.add("active-link");
+      try {
+        document
+          .querySelector(".navbar a[href*=" + sectionId + "]")
+          .classList.add("active-link");
+      } catch (e) {
+        return;
+      }
     } else {
-      console.log("ok2");
-      document
-        .querySelector(".navbar a[href*=" + sectionId + "]")
-        .classList.remove("active-link");
+      try {
+        document
+          .querySelector(".navbar a[href*=" + sectionId + "]")
+          .classList.remove("active-link");
+      } catch (e) {
+        return;
+      }
     }
   });
 }
