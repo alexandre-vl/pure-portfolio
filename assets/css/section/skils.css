@@ -1,4 +1,69 @@
 .skils {
-  height: 100vh;
+  height: 100%;
   background-color: #202733;
+}
+
+.skils-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.skils-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.skills-item-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.skils-item-text {
+  font-size: 1rem;
+  color: #949494;
+  font-weight: 600;
+  padding: 0.8rem;
+}
+
+.skills-item-bar {
+  height: 8px;
+  width: 100px;
+  border-radius: 20px;
+  margin: 1rem;
+  background-color: #151b24;
+}
+
+.skills-item-bar-pourcent {
+  height: 8px;
+  border-radius: 20px;
+}
+
+.pourc-js {
+  width: 90px;
+  background-color: #f7e018;
+}
+
+.pourc-html {
+  width: 60px;
+  background-color: #ff5722;
+}
+
+.pourc-css {
+  width: 50px;
+  background-color: #214ce5;
+}
+
+.pourc-php {
+  width: 40px;
+  background-color: #92a9ed;
+}
+
+.pourc-vue {
+  width: 30px;
+  background-color: #3fb984;
 }

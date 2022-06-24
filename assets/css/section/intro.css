@@ -78,3 +78,24 @@
   margin-top: 2rem;
   width: 100%;
 }
+
+@media screen and (max-width: 850px) {
+  .intro-container {
+    flex-direction: column;
+  }
+
+  .intro-about {
+    width: 350px;
+    margin-left: 0.5rem;
+  }
+
+  .intro-block {
+    width: 100px;
+  }
+
+  .intro-me-img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #f0c43c;
+  }
+}

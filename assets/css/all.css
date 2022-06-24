@@ -81,3 +81,10 @@ a {
   cursor: pointer;
   width: 150px;
 }
+
+@media screen and (max-width: 850px) {
+  .titles-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
