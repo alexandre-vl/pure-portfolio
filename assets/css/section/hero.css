@@ -1,8 +1,6 @@
 .hero {
   height: 100vh;
   background: radial-gradient(#2f3e52, #202733);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .hero-img {
