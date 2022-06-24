@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif !important;
+  font-weight: 600;
   background-color: #25262a !important; /* dark #1d1e28 */
   color: #fff !important; /* dark #fff */ /* light #1f2937 */
   -webkit-font-smoothing: antialiased;
@@ -16,4 +17,30 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2c2c2c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #414141;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

@@ -1,4 +1,5 @@
 .hero {
+  padding-top: 10vh;
   height: 100vh;
   background: radial-gradient(#2f3e52, #202733);
   background-repeat: no-repeat;
@@ -6,7 +7,7 @@
 }
 
 .hero-img {
-  margin-top: 3vh;
+  padding-top: 5vh;
 }
 
 .hero-container {
@@ -37,6 +38,21 @@
   -moz-text-fill-color: transparent;
 }
 
+.arrow-down {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #f0c43c;
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.arrow-down-svg {
+  width: 50px;
+  height: 50px;
+}
+
 @keyframes typewriter {
   from {
     width: 0;
@@ -57,7 +73,7 @@
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 850px) {
   .hero-img {
     width: 300px;
     height: 300px;
@@ -65,5 +81,9 @@
 
   .gradient {
     font-size: 30px;
+  }
+
+  .hero {
+    padding-top: 5vh;
   }
 }

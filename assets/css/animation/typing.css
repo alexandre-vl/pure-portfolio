@@ -2,7 +2,6 @@
   display: inline-flex;
   width: 0;
   overflow: hidden;
-  padding-right: 0.08em;
   position: relative;
 }
 
@@ -141,7 +140,7 @@
   }
 
   100% {
-    width: 4.7em;
+    width: 5.2em;
     padding-right: 0;
   }
 }

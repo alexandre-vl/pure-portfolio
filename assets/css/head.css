@@ -53,8 +53,7 @@
   display: inline-block;
   vertical-align: middle;
 }
-
-.navbar-item.active {
+.active-link {
   filter: drop-shadow(0 0 0.75rem #ce804f);
 }
 
@@ -100,7 +99,7 @@ svg:hover {
   padding: 30px 30px !important;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 850px) {
   .list-icon {
     display: flex;
     flex-direction: row;
