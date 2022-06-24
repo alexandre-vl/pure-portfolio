@@ -55,6 +55,7 @@
     flex-direction: column;
   }
   .services-item {
-    width: 100%;
+    width: 90%;
+    border-radius: 0.75rem;
   }
 }

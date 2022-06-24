@@ -1,3 +1,23 @@
 .contact {
   background-color: #202733;
 }
+
+.contact-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-item {
+  margin: 2rem;
+  padding: 1rem;
+  background-color: #20232b;
+  border-radius: 50%;
+}
+
+.contact-item i {
+  font-size: 1.5em;
+  color: #f0c43c;
+}
