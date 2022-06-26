@@ -1,0 +1,144 @@
+.modal-window {
+  position: fixed;
+  inset: 0;
+  background-color: hsla(219, 28%, 16%, 0.7);
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s;
+  display: grid;
+  place-items: center;
+}
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+.modal-container {
+  width: 600px;
+  position: relative;
+  padding: 2em;
+  background: #1c222c;
+}
+.modal-window header {
+  font-weight: bold;
+}
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+  color: #f0c43c;
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.modal-close-svg {
+  width: 25px;
+}
+
+.modal-close-svg:hover {
+  color: #f0c43c;
+}
+
+.modal-window > div {
+  border-radius: 1rem;
+}
+
+/* .modal-window div:not(:last-of-type) {
+  margin-bottom: 15px;
+} */
+
+/* OFFERS  */
+
+.modal-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modal-desc-text {
+  width: 400px;
+  color: #c3cece;
+  font-size: 15px;
+}
+
+.modal-offers {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-offer-item-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-offer-item-desc {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.modal-offer-item-desc-text-case {
+  margin-left: 0.6rem;
+}
+
+.modal-offer-item-desc-text {
+  color: #d1d1d1;
+}
+
+.modal-offer-item-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #c87453;
+}
+
+.modal-offer-item-svg {
+  padding-top: 3px;
+  width: 20px;
+  color: #f0c43c;
+}
+
+.modal-offer-footer-title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #d1d1d1;
+}
+
+.modal-offer-footer-desc {
+  font-size: 15px;
+  font-weight: bold;
+  color: #7289da;
+}
+
+@media screen and (max-width: 850px) {
+  .modal-window > div {
+    width: inherit;
+  }
+
+  .modal-window {
+    padding: 2rem 1rem;
+  }
+
+  /*   .modal-container {
+    margin: 5px;
+  }
+ */
+  .modal-desc-text {
+    width: 90%;
+  }
+}

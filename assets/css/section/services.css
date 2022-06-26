@@ -15,7 +15,7 @@
 
 .services-item {
   margin: 1rem;
-  height: 400px;
+  height: 450px;
   width: 450px;
   background-color: #202733;
   border-radius: 0.75rem;
@@ -32,7 +32,7 @@
 
 .services-item-title {
   font-size: 1.2rem;
-  color: #e6e6e6;
+  color: #f0c43c;
   font-weight: bold;
 }
 
