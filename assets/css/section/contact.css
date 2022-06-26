@@ -21,9 +21,24 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  transition-duration: 400ms;
+  transform: scale(1, 1) translate3d(0, 0, 0);
 }
 
 .contact-item i {
   font-size: 1.5em;
   color: #f0c43c;
+}
+
+.contact-item:hover {
+  background-color: #f0c43c;
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+}
+
+.contact-item:hover i {
+  color: #202733;
+  transition: 0.3s;
 }
