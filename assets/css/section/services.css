@@ -58,4 +58,8 @@
     width: 90%;
     border-radius: 0.75rem;
   }
+
+  .services-item-desc {
+    width: inherit;
+  }
 }

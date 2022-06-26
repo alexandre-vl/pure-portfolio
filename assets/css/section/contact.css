@@ -11,10 +11,16 @@
 }
 
 .contact-item {
+  height: 60px;
+  width: 60px;
   margin: 2rem;
   padding: 1rem;
   background-color: #20232b;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .contact-item i {
