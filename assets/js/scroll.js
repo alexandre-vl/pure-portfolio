@@ -1,4 +1,19 @@
+var prevScrollpos = window.pageYOffset;
 function scrollHeader() {
+  var currentScrollPos = window.pageYOffset;
+  if (
+    /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+      navigator.userAgent
+    )
+  ) {
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("navbar").style.display = "flex";
+    } else {
+      document.getElementById("navbar").style.display = "none";
+    }
+    prevScrollpos = currentScrollPos;
+  }
+
   const header = document.getElementById("header");
   if (this.scrollY >= 50) header.classList.add("scroll-header");
   else header.classList.remove("scroll-header");
@@ -33,12 +48,3 @@ function scrollActive() {
   });
 }
 window.addEventListener("scroll", scrollActive);
-
-$(window).scroll(function () {
-  if ($(this).scrollTop() > 0) {
-    console.log("ok");
-    $(".a").fadeOut();
-  } else {
-    $(".a").fadeIn();
-  }
-});
