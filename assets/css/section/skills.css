@@ -1,15 +1,15 @@
-.skils {
+.skills {
   height: 100%;
   background-color: #202733;
 }
 
-.skils-list {
+.skills-list {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
-.skils-item {
+.skills-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,9 +23,9 @@
   border-radius: 5px;
 }
 
-.skils-item-text {
+.skills-item-text {
   font-size: 1rem;
-  color: #949494;
+  color: #ececec;
   font-weight: 600;
   padding: 0.8rem;
 }
@@ -43,29 +43,43 @@
   border-radius: 20px;
 }
 
-.pourc-js {
-  width: 90px;
-  background-color: #f7e018;
+/* .pourc-js {
+  color: #f7e018;
 }
 
 .pourc-html {
-  width: 60px;
-  background-color: #ff5722;
+  color: #ff5722;
 }
 
 .pourc-css {
-  width: 50px;
-  background-color: #214ce5;
+  color: #214ce5;
 }
 
 .pourc-php {
-  width: 40px;
-  background-color: #92a9ed;
+  color: #92a9ed;
 }
 
 .pourc-vue {
-  width: 30px;
-  background-color: #3fb984;
+  color: #3fb984;
+} */
+.pourc-js {
+  color: #f5e449;
+}
+
+.pourc-html {
+  color: #ff764d;
+}
+
+.pourc-css {
+  color: #3b60e6;
+}
+
+.pourc-php {
+  color: #9eb0e7;
+}
+
+.pourc-vue {
+  color: #4db488;
 }
 
 .skills-seemore {
@@ -85,8 +99,13 @@
   margin-bottom: 1rem;
 }
 
+.skills-item-exp {
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
 @media screen and (max-width: 850px) {
-  .skils-list {
+  .skills-list {
     flex-wrap: wrap;
     margin-bottom: 5rem;
   }

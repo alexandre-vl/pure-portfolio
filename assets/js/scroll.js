@@ -33,3 +33,12 @@ function scrollActive() {
   });
 }
 window.addEventListener("scroll", scrollActive);
+
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 0) {
+    console.log("ok");
+    $(".a").fadeOut();
+  } else {
+    $(".a").fadeIn();
+  }
+});

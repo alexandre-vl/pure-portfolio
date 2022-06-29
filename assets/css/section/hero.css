@@ -43,6 +43,7 @@
   border: 2px solid #f0c43c;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 5vh;
 }
 
