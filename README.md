@@ -2,8 +2,8 @@
 
 Image: 
 
-![image](./assets/img/1.png)
-![image](./assets/img/2.png)
-![image](./assets/img/3.png)
-![image](./assets/img/4.png)
-![image](./assets/img/5.png)
+![image](./assets/img/1.jpg)
+![image](./assets/img/2.jpg)
+![image](./assets/img/3.jpg)
+![image](./assets/img/4.jpg)
+![image](./assets/img/5.jpg)
