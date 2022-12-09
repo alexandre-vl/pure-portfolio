@@ -21,6 +21,8 @@
   font-size: 50px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -34,6 +36,7 @@
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+  text-align: center;
 }
 
 .arrow-down {
@@ -45,6 +48,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .arrow-down-svg {

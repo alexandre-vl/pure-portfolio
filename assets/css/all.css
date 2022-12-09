@@ -84,6 +84,14 @@ a {
   font-weight: 600;
   cursor: pointer;
   width: 150px;
+  transition: all 0.2s ease-in-out;
+}
+
+.button-contact:hover {
+    background-color: #cecece;
+    color: #202733;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transform: translate(0, -1px);
 }
 
 @media screen and (max-width: 850px) {

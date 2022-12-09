@@ -1,12 +1,13 @@
 .skills {
-  height: 100%;
   background-color: #202733;
+  padding: 0 1rem;
 }
 
 .skills-list {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  gap: 50px;
 }
 
 .skills-item {
@@ -78,8 +79,8 @@
   color: #9eb0e7;
 }
 
-.pourc-vue {
-  color: #4db488;
+.pourc-adonis {
+  color: #5a45fe;
 }
 
 .skills-seemore {
@@ -103,6 +104,50 @@
   margin-top: 1rem;
   font-size: 14px;
 }
+
+.projects-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 4rem 5rem 5rem;
+}
+
+.project-case {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  width: 400px;
+  background-color: #2b3443;
+}
+
+.project-case-img img {
+  width: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.project-case-text {
+  padding: 30px 20px;
+}
+
+.project-case-text-title {
+    font-size: 1.2rem;
+    color: #f0c43c;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.project-case-text-content {
+  color: rgb(206, 206, 206);
+  font-size: 14px;
+}
+
 
 @media screen and (max-width: 850px) {
   .skills-list {

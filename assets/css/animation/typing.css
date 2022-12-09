@@ -61,86 +61,86 @@
 
 @-webkit-keyframes type {
   10% {
-    width: 0.49em;
+    width: 0.7em;
   }
 
   20% {
-    width: 0.98em;
+    width: 1.4em;
   }
 
   30% {
-    width: 1.47em;
+    width: 2.1em;
   }
 
   40% {
-    width: 1.96em;
+    width: 2.8em;
   }
 
   50% {
-    width: 2.45em;
+    width: 3.5em;
   }
 
   60% {
-    width: 2.94em;
+    width: 4.2em;
   }
 
   70% {
-    width: 3.43em;
+    width: 4.9em;
   }
 
   80% {
-    width: 3.92em;
+    width: 5.6em;
   }
 
   90% {
-    width: 4.41em;
+    width: 6.3em;
   }
 
   100% {
-    width: 5.65em;
+    width: 7em;
     padding-right: 0;
   }
 }
 
 @keyframes type {
   10% {
-    width: 0.49em;
+    width: 0.7em;
   }
 
   20% {
-    width: 0.98em;
+    width: 1.4em;
   }
 
   30% {
-    width: 1.47em;
+    width: 2.1em;
   }
 
   40% {
-    width: 1.96em;
+    width: 2.8em;
   }
 
   50% {
-    width: 2.45em;
+    width: 3.5em;
   }
 
   60% {
-    width: 2.94em;
+    width: 4.2em;
   }
 
   70% {
-    width: 3.43em;
+    width: 4.9em;
   }
 
   80% {
-    width: 3.92em;
+    width: 5.6em;
   }
 
   90% {
-    width: 4.5em;
+    width: 6.3em;
   }
 
   100% {
-    width: 5.8em;
+    width: 7em;
     padding-right: 0;
   }
 }
