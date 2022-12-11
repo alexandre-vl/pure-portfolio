@@ -1,11 +1,14 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
   <url>
     <loc>https://alexandre-vl.fr/</loc>
     <lastmod>2022-10-19T12:55:54+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://alexandre-vl.fr/legals</loc>
+    <loc>https://alexandre-vl.fr/legals.html</loc>
     <lastmod>2022-10-19T12:55:54+00:00</lastmod>
     <priority>0.80</priority>
   </url>
